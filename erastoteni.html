@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="erastoteni.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h3>Enter the max number for the Sieve of Eratosthenes.</h3>
+      <div class="button-container">
+        <input type="number" id="numberInput" placeholder="Enter a number" />
+        <button
+          onclick="calculate()"
+          onmouseover="this.style.backgroundColor='#218838'"
+          onmouseout="this.style.backgroundColor='#28a745'"
+        >
+          Calculate
+        </button>
+      </div>
+
+      <div id="number-container"></div>
+    </div>
+  </body>
+  <script src="erastoteni.js"></script>
+</html>
