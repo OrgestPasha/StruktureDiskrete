@@ -26,8 +26,12 @@ function calculate() {
 
   array = array.filter((num) => num != null && num >= 2);
 
+  // get container element
   let container = document.getElementById("number-container");
+  //reset its value
   container.innerHTML = "";
+
+  //Display each prime number one at a time
   for (let x = 0; x < array.length; x++) {
     setTimeout(() => {}, 1000);
   }
